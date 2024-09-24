@@ -1,7 +1,12 @@
+<%= link_to 'criar produto', new_product_path %> 
+
+
 <% @products.each do |product| %>
 
 <h1><%= product.name %> </h1>
 <h1><%= product.price %> </h1>
 <h1><%= product.quantidade %> </h1>
+
+<%= link_to "ver produto", product %>
 
 <% end %>
