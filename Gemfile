@@ -67,3 +67,5 @@ group :test do
 end
 
 gem 'byebug', '~> 9.0', '>= 9.0.6'
+
+gem 'jquery-rails'

@@ -9,5 +9,6 @@
 
     <p><%= link_to "ver produto", product %></p>.
     <p><%= link_to "editar um produto", edit_product_path(product) %></p>
+    <p><%= link_to 'Delete', "products/#{product.id}", data: { "turbo-method": :delete, 'turbo-confirm': "Tem certeza?" } %></p>
 
 <% end %>
