@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2024-10-07
+  account_supplier: one
+
+two:
+  date: 2024-10-07
+  account_supplier: two

@@ -8,3 +8,9 @@ Appointment.create(doctor: medico, patient: paciente, date: Date.today)
 Appointment.create(doctor: medico2, patient: paciente2, date: Date.today)
 Appointment.create(doctor: medico, patient: paciente, date: Date.today)
 Appointment.create(doctor: medico2, patient: paciente2, date: Date.today)
+
+s1 = Supplier.create(name: "Diego")
+
+a1 = AccountSupplier.create(number: 144, supplier: s1)
+
+AccountHistory.create(date: Date.today, account_supplier: a1)
