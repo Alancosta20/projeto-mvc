@@ -15,5 +15,9 @@
 
 #AccountHistory.create(date: Date.today, account_supplier: a1)
 
-s1 = Student.create(name: "noob")
-t1 = Teacher.create(name: "Diego")
+#s1 = Student.create(name: "noob")
+#t1 = Teacher.create(name: "Diego")
+
+c1 = Customer.create(name: "Noob")
+
+e1 = Employee.create(name: "Diego")
